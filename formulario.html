@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style type="text/css">
+    .class2 {
+                border: thin rgb(0, 0, 0) solid;
+                padding: 4px;
+                width: 100px;
+    }
+    input,h3 {
+  /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra*/
+  font: 1em sans-serif;
+
+  /* Tamaño uniforme del campo de texto */
+  width: 100px;
+  box-sizing: border-box;
+
+  /* Hacer coincidir los bordes del campo del formulario */
+  border: 1px solid #1b0ed1;
+}
+</style>
+</head>
+<body>
+    <h1>datos para ingresaa</h1>
+    <h2><b>nombre</b></h2>
+    <input type="text" name="nombre" id="nombre"></input>
+    <br>
+    <h2><b>apellido</b></h2>
+    <input type="text" name="apellido">
+    <h2>contraseña</h2>
+    <input type="password" name="contra" >
+    <h2>vuelve a intruducir su contraseña</h2>
+    <input type="password"  name="contra2">
+    <br>
+    <h2>identificacion</h2>
+    <br>
+    <input type="number">
+    <br>
+    <h2>sexo?</h2>
+
+    <h3><input type="radio" name="gender" value="male"> Hombre
+    <input type="radio" name="gender" value="female"> Mujer</h3>
+    <h2>foto</h2>
+    <input type="file" name="foto">
+<br>
+    <input type="checkbox">eres estudiante?
+    <br>
+
+	<span class="class2">departamento  
+           <select name="departamento">
+           <option>Departamento de marketing</option>
+           <option>Departamento comercial</option>
+           <option>Departamento administrativo</option>
+           <option>Recursos humanos</option>
+           <option>Departamento de finanzas</option>
+           </select>
+            fecha de nacimiento
+            <input type="date">
+            <select name="temas">temas de interes
+
+                <option>base de datos</option>
+                
+                <option>arquitectura</option>
+                
+                <option>calidad</option>
+
+                <option>ERP,CRM,Business Intenlligence</option>
+                
+                </select>
+    </span>
+    <button name="cambios" id="cambio"onclick>guardar cambios </button>
+    <button name="borrar" id="receteo">borrar datos ingresados</button>
+
+    
+
+
+</body>
+</html>   
